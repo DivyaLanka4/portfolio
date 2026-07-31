@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Fira_Code } from 'next/font/google';
+// import { Inter, Fira_Code } from 'next/font/google'; // Removed due to certificate errors
 import './globals.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import ParticleBg from '@/components/ParticleBg';
@@ -8,15 +8,9 @@ import CustomCursor from '@/components/CustomCursor';
 import LoadingScreen from '@/components/LoadingScreen';
 import ScrollToTop from '@/components/ScrollToTop';
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-sans',
-});
-
-const firaCode = Fira_Code({
-  subsets: ['latin'],
-  variable: '--font-mono',
-});
+// const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+// const firaCode = Fira_Code({ subsets: ['latin'], variable: '--font-mono' });
+// Using system fonts instead of Google Fonts
 
 export const metadata: Metadata = {
   title: 'Divya Lanka | Modern AI Software Engineer Portfolio',
@@ -56,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${firaCode.variable}`}>
+    <html lang="en" suppressHydrationWarning className="font-sans">
       <body className="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-white min-h-screen flex flex-col relative">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <LoadingScreen />

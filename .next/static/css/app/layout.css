@@ -1505,6 +1505,9 @@ video {
 .font-mono {
   font-family: Fira Code, monospace;
 }
+.font-sans {
+  font-family: Inter, system-ui, sans-serif;
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2312,31 +2315,3 @@ video {
   }
 }
 
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"],"variable":"--font-sans"}],"variableName":"inter"} ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-  font-family: '__Inter_Fallback_1deade';
-  src: local("Arial");
-  ascent-override:90.49%;
-  descent-override:22.56%;
-  line-gap-override:0.00%;
-  size-adjust:107.06%;
-}@font-face {font-family: '__Inter_Fallback_Fallback_1deade';src: local("Arial");ascent-override: 90.49%;descent-override: 22.56%;line-gap-override: 0.00%;size-adjust: 107.06%
-}.__className_1deade {font-family: '__Inter_Fallback_1deade', '__Inter_Fallback_Fallback_1deade';font-style: normal
-}.__variable_1deade {--font-sans: '__Inter_Fallback_1deade', '__Inter_Fallback_Fallback_1deade'
-}
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Fira_Code","arguments":[{"subsets":["latin"],"variable":"--font-mono"}],"variableName":"firaCode"} ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@font-face {
-  font-family: '__Fira_Code_Fallback_f27ed4';
-  src: local("Arial");
-  ascent-override:73.56%;
-  descent-override:23.92%;
-  line-gap-override:0.00%;
-  size-adjust:134.59%;
-}@font-face {font-family: '__Fira_Code_Fallback_Fallback_f27ed4';src: local("Arial");ascent-override: 73.56%;descent-override: 23.92%;line-gap-override: 0.00%;size-adjust: 134.59%
-}.__className_f27ed4 {font-family: '__Fira_Code_Fallback_f27ed4', '__Fira_Code_Fallback_Fallback_f27ed4';font-style: normal
-}.__variable_f27ed4 {--font-mono: '__Fira_Code_Fallback_f27ed4', '__Fira_Code_Fallback_Fallback_f27ed4'
-}
