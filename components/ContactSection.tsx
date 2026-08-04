@@ -46,7 +46,7 @@ export default function ContactSection() {
         <div className="text-center space-y-3 mb-16">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full glass-card border border-cyan-500/30 text-cyan-400 text-xs font-mono tracking-widest uppercase">
             <MessageSquare className="w-3.5 h-3.5" />
-            <span>Let's Build Together</span>
+            <span>Let&apos;s Build Together</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
             Contact <span className="text-gradient">Divya Lanka</span>

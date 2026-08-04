@@ -72,7 +72,7 @@ export default function HeroSection() {
             {/* Main Greeting */}
             <div className="space-y-2">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight">
-                Hi, I'm <br className="hidden sm:inline" />
+                Hi, I&apos;m <br className="hidden sm:inline" />
                 <span className="text-gradient">Divya Lanka</span>
               </h1>
               

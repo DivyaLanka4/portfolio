@@ -39,7 +39,7 @@ export default function AboutSection() {
               <span>Professional Summary</span>
             </h3>
             <p className="text-slate-700 dark:text-slate-300 text-base sm:text-lg leading-relaxed italic border-l-4 border-cyan-400 pl-4 py-1">
-              "{PERSONAL_INFO.bio}"
+              &quot;{PERSONAL_INFO.bio}&quot;
             </p>
           </div>
         </motion.div>
